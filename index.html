@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fibonacci Sequence</title>
+    <script src="JS/index.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+
+<body>
+    <p id="texting">Insert the amount of numbers you want:</p>
+    <input id="amountNumbers" type="text">
+    <button id="generateFibo" onclick="fibonacci(document.getElementById('amountNumbers').value)">Generate</button>
+    <p id="error"></p>
+    <textarea cols="80" rows="20" id="result"></textarea>
+</body>
+
+</html>
